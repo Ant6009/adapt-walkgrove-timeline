@@ -9,7 +9,7 @@
       <div class="timeline__widget">
         <div class="timeline__item-title">{{title}}</div>
         <div class="timeline__item-body">{{{body}}}</div>
-        {{#if _image}} <img class="timeline__item-image" src={{{_image}}} />{{/if}}
+        {{#if _image}} <img class="timeline__item-image" src={{{_image}}} {{#if alt}}aria-label="{{alt}}"{{else}}aria-hidden="true" alt=""{{/if}} />{{/if}}
       </div>
     {{/each}}
 
