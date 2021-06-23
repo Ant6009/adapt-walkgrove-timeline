@@ -30,6 +30,15 @@
       "help": "This is the instruction text",
       "translatable": true
     },
+    "buttonMore": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the 'more' button text - add this if wish to show one timeline item at a time, i.e. adding audio",
+      "translatable": true
+    },
     "_items": {
       "type": "array",
       "required": true,
