@@ -86,7 +86,9 @@ define([
         return;
       }
 
-      this.setupInviewCompletion(selector);
+      if(!this.model.get( 'buttonMore' )) {
+        this.setupInviewCompletion(selector);
+      }
     },
 
     /**
