@@ -167,3 +167,22 @@
     }
     
 }
+
+
+.dir-rtl {
+    .timeline {
+        &__widget {
+            
+            &:after {
+                left: -11.5%;
+            }
+        }
+    
+        &__widget:nth-child(even) {
+
+            &:after {
+                left: 111.5%;
+            }
+        }
+    }
+}

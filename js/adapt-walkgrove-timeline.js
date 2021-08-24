@@ -57,7 +57,7 @@ define([
         if(index === this._timelineIndex) {
           //audio?
           if (Adapt.config.get('_sound')._isActive === true) {
-            console.log(date._audio);
+            //console.log(date._audio);
             if ( date._audio) {
               Adapt.trigger('audio:partial', {src: date._audio._src});
             }
